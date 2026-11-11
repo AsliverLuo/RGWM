@@ -1,0 +1,1082 @@
+[
+  {
+    "step": 0,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 540,
+          "ber": 0.002158273381294964,
+          "error_buckets": {
+            "zero": 540,
+            "one": 15,
+            "two": 0,
+            "three_or_more": 1
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 252,
+          "ber": 0.0010416666666666667,
+          "error_buckets": {
+            "zero": 252,
+            "one": 4,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 288,
+          "ber": 0.003111111111111111,
+          "error_buckets": {
+            "zero": 288,
+            "one": 11,
+            "two": 0,
+            "three_or_more": 1
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 541,
+          "ber": 0.0019184652278177458,
+          "error_buckets": {
+            "zero": 541,
+            "one": 14,
+            "two": 1,
+            "three_or_more": 0
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 250,
+          "ber": 0.0015625,
+          "error_buckets": {
+            "zero": 250,
+            "one": 6,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 291,
+          "ber": 0.0022222222222222222,
+          "error_buckets": {
+            "zero": 291,
+            "one": 8,
+            "two": 1,
+            "three_or_more": 0
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.36906474820143886,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 20,
+            "three_or_more": 534
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.35963541666666665,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 9,
+            "three_or_more": 246
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3771111111111111,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 11,
+            "three_or_more": 288
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3431654676258993,
+          "error_buckets": {
+            "zero": 0,
+            "one": 3,
+            "two": 26,
+            "three_or_more": 527
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.32265625,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 20,
+            "three_or_more": 234
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3606666666666667,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 6,
+            "three_or_more": 293
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 3,
+            "three_or_more": 553
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 3,
+            "three_or_more": 253
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 300
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 100,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 506,
+          "ber": 0.00803357314148681,
+          "error_buckets": {
+            "zero": 506,
+            "one": 35,
+            "two": 13,
+            "three_or_more": 2
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 235,
+          "ber": 0.007552083333333333,
+          "error_buckets": {
+            "zero": 235,
+            "one": 14,
+            "two": 6,
+            "three_or_more": 1
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 271,
+          "ber": 0.008444444444444444,
+          "error_buckets": {
+            "zero": 271,
+            "one": 21,
+            "two": 7,
+            "three_or_more": 1
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 525,
+          "ber": 0.005515587529976019,
+          "error_buckets": {
+            "zero": 525,
+            "one": 21,
+            "two": 5,
+            "three_or_more": 5
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 244,
+          "ber": 0.005208333333333333,
+          "error_buckets": {
+            "zero": 244,
+            "one": 8,
+            "two": 0,
+            "three_or_more": 4
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 281,
+          "ber": 0.0057777777777777775,
+          "error_buckets": {
+            "zero": 281,
+            "one": 13,
+            "two": 5,
+            "three_or_more": 1
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.39448441247002397,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 15,
+            "three_or_more": 539
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.3893229166666667,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 8,
+            "three_or_more": 247
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3988888888888889,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 7,
+            "three_or_more": 292
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 1,
+          "ber": 0.37458033573141486,
+          "error_buckets": {
+            "zero": 1,
+            "one": 1,
+            "two": 20,
+            "three_or_more": 534
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 1,
+          "ber": 0.35963541666666665,
+          "error_buckets": {
+            "zero": 1,
+            "one": 0,
+            "two": 14,
+            "three_or_more": 241
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3873333333333333,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 6,
+            "three_or_more": 293
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 4,
+            "three_or_more": 552
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 3,
+            "three_or_more": 253
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 1,
+            "three_or_more": 299
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 250,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 498,
+          "ber": 0.00935251798561151,
+          "error_buckets": {
+            "zero": 498,
+            "one": 41,
+            "two": 14,
+            "three_or_more": 3
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 233,
+          "ber": 0.00859375,
+          "error_buckets": {
+            "zero": 233,
+            "one": 14,
+            "two": 8,
+            "three_or_more": 1
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 265,
+          "ber": 0.01,
+          "error_buckets": {
+            "zero": 265,
+            "one": 27,
+            "two": 6,
+            "three_or_more": 2
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 524,
+          "ber": 0.0056354916067146285,
+          "error_buckets": {
+            "zero": 524,
+            "one": 21,
+            "two": 7,
+            "three_or_more": 4
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 244,
+          "ber": 0.005208333333333333,
+          "error_buckets": {
+            "zero": 244,
+            "one": 8,
+            "two": 0,
+            "three_or_more": 4
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 280,
+          "ber": 0.006,
+          "error_buckets": {
+            "zero": 280,
+            "one": 13,
+            "two": 7,
+            "three_or_more": 0
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3934052757793765,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 10,
+            "three_or_more": 544
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.38385416666666666,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 7,
+            "three_or_more": 248
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.40155555555555555,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 3,
+            "three_or_more": 296
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 1,
+          "ber": 0.3751798561151079,
+          "error_buckets": {
+            "zero": 1,
+            "one": 0,
+            "two": 19,
+            "three_or_more": 536
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 1,
+          "ber": 0.3625,
+          "error_buckets": {
+            "zero": 1,
+            "one": 0,
+            "two": 11,
+            "three_or_more": 244
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.386,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 8,
+            "three_or_more": 292
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 556
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 256
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 300
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 500,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 481,
+          "ber": 0.012709832134292566,
+          "error_buckets": {
+            "zero": 481,
+            "one": 50,
+            "two": 19,
+            "three_or_more": 6
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 227,
+          "ber": 0.010677083333333334,
+          "error_buckets": {
+            "zero": 227,
+            "one": 19,
+            "two": 8,
+            "three_or_more": 2
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 254,
+          "ber": 0.014444444444444444,
+          "error_buckets": {
+            "zero": 254,
+            "one": 31,
+            "two": 11,
+            "three_or_more": 4
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 520,
+          "ber": 0.006354916067146283,
+          "error_buckets": {
+            "zero": 520,
+            "one": 24,
+            "two": 7,
+            "three_or_more": 5
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 243,
+          "ber": 0.00546875,
+          "error_buckets": {
+            "zero": 243,
+            "one": 9,
+            "two": 0,
+            "three_or_more": 4
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 277,
+          "ber": 0.0071111111111111115,
+          "error_buckets": {
+            "zero": 277,
+            "one": 15,
+            "two": 7,
+            "three_or_more": 1
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3937649880095923,
+          "error_buckets": {
+            "zero": 0,
+            "one": 3,
+            "two": 10,
+            "three_or_more": 543
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.38255208333333335,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 10,
+            "three_or_more": 245
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.4033333333333333,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 0,
+            "three_or_more": 298
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3799760191846523,
+          "error_buckets": {
+            "zero": 0,
+            "one": 3,
+            "two": 19,
+            "three_or_more": 534
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.3723958333333333,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 9,
+            "three_or_more": 245
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3864444444444444,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 10,
+            "three_or_more": 289
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 556
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 256
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 300
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 750,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 476,
+          "ber": 0.013908872901678656,
+          "error_buckets": {
+            "zero": 476,
+            "one": 50,
+            "two": 24,
+            "three_or_more": 6
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 228,
+          "ber": 0.010416666666666666,
+          "error_buckets": {
+            "zero": 228,
+            "one": 18,
+            "two": 8,
+            "three_or_more": 2
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 248,
+          "ber": 0.016888888888888887,
+          "error_buckets": {
+            "zero": 248,
+            "one": 32,
+            "two": 16,
+            "three_or_more": 4
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 512,
+          "ber": 0.007553956834532374,
+          "error_buckets": {
+            "zero": 512,
+            "one": 30,
+            "two": 10,
+            "three_or_more": 4
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 243,
+          "ber": 0.00625,
+          "error_buckets": {
+            "zero": 243,
+            "one": 7,
+            "two": 2,
+            "three_or_more": 4
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 269,
+          "ber": 0.008666666666666666,
+          "error_buckets": {
+            "zero": 269,
+            "one": 23,
+            "two": 8,
+            "three_or_more": 0
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3934052757793765,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 13,
+            "three_or_more": 542
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.38177083333333334,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 12,
+            "three_or_more": 244
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.4033333333333333,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 1,
+            "three_or_more": 298
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3828537170263789,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 15,
+            "three_or_more": 539
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.378125,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 6,
+            "three_or_more": 249
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3868888888888889,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 9,
+            "three_or_more": 290
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 556
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 256
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 300
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 1000,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 472,
+          "ber": 0.014628297362110312,
+          "error_buckets": {
+            "zero": 472,
+            "one": 52,
+            "two": 27,
+            "three_or_more": 5
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 226,
+          "ber": 0.010677083333333334,
+          "error_buckets": {
+            "zero": 226,
+            "one": 20,
+            "two": 9,
+            "three_or_more": 1
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 246,
+          "ber": 0.018,
+          "error_buckets": {
+            "zero": 246,
+            "one": 32,
+            "two": 18,
+            "three_or_more": 4
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 511,
+          "ber": 0.007673860911270983,
+          "error_buckets": {
+            "zero": 511,
+            "one": 31,
+            "two": 9,
+            "three_or_more": 5
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 242,
+          "ber": 0.00625,
+          "error_buckets": {
+            "zero": 242,
+            "one": 8,
+            "two": 2,
+            "three_or_more": 4
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 269,
+          "ber": 0.008888888888888889,
+          "error_buckets": {
+            "zero": 269,
+            "one": 23,
+            "two": 7,
+            "three_or_more": 1
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3989208633093525,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 13,
+            "three_or_more": 542
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.38828125,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 11,
+            "three_or_more": 245
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.408,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 2,
+            "three_or_more": 297
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.38369304556354916,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 15,
+            "three_or_more": 540
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.3776041666666667,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 7,
+            "three_or_more": 248
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3888888888888889,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 8,
+            "three_or_more": 292
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 556
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 256
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 300
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "step": 0,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 540,
+          "ber": 0.002158273381294964,
+          "error_buckets": {
+            "zero": 540,
+            "one": 15,
+            "two": 0,
+            "three_or_more": 1
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 252,
+          "ber": 0.0010416666666666667,
+          "error_buckets": {
+            "zero": 252,
+            "one": 4,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 288,
+          "ber": 0.003111111111111111,
+          "error_buckets": {
+            "zero": 288,
+            "one": 11,
+            "two": 0,
+            "three_or_more": 1
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 541,
+          "ber": 0.0019184652278177458,
+          "error_buckets": {
+            "zero": 541,
+            "one": 14,
+            "two": 1,
+            "three_or_more": 0
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 250,
+          "ber": 0.0015625,
+          "error_buckets": {
+            "zero": 250,
+            "one": 6,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 291,
+          "ber": 0.0022222222222222222,
+          "error_buckets": {
+            "zero": 291,
+            "one": 8,
+            "two": 1,
+            "three_or_more": 0
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.36906474820143886,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 20,
+            "three_or_more": 534
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.35963541666666665,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 9,
+            "three_or_more": 246
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3771111111111111,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 11,
+            "three_or_more": 288
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3431654676258993,
+          "error_buckets": {
+            "zero": 0,
+            "one": 3,
+            "two": 26,
+            "three_or_more": 527
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.32265625,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 20,
+            "three_or_more": 234
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3606666666666667,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 6,
+            "three_or_more": 293
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 3,
+            "three_or_more": 553
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 3,
+            "three_or_more": 253
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 300
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 100,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 527,
+          "ber": 0.00407673860911271,
+          "error_buckets": {
+            "zero": 527,
+            "one": 24,
+            "two": 5,
+            "three_or_more": 0
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 246,
+          "ber": 0.0026041666666666665,
+          "error_buckets": {
+            "zero": 246,
+            "one": 10,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 281,
+          "ber": 0.005333333333333333,
+          "error_buckets": {
+            "zero": 281,
+            "one": 14,
+            "two": 5,
+            "three_or_more": 0
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 529,
+          "ber": 0.0035971223021582736,
+          "error_buckets": {
+            "zero": 529,
+            "one": 24,
+            "two": 3,
+            "three_or_more": 0
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 248,
+          "ber": 0.00234375,
+          "error_buckets": {
+            "zero": 248,
+            "one": 7,
+            "two": 1,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 281,
+          "ber": 0.004666666666666667,
+          "error_buckets": {
+            "zero": 281,
+            "one": 17,
+            "two": 2,
+            "three_or_more": 0
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 1,
+          "ber": 0.3749400479616307,
+          "error_buckets": {
+            "zero": 1,
+            "one": 3,
+            "two": 17,
+            "three_or_more": 535
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 1,
+          "ber": 0.35911458333333335,
+          "error_buckets": {
+            "zero": 1,
+            "one": 1,
+            "two": 10,
+            "three_or_more": 244
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3884444444444444,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 7,
+            "three_or_more": 291
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 3,
+          "ber": 0.35863309352517986,
+          "error_buckets": {
+            "zero": 3,
+            "one": 6,
+            "two": 20,
+            "three_or_more": 527
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 3,
+          "ber": 0.34296875,
+          "error_buckets": {
+            "zero": 3,
+            "one": 4,
+            "two": 10,
+            "three_or_more": 239
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.372,
+          "error_buckets": {
+            "zero": 0,
+            "one": 2,
+            "two": 10,
+            "three_or_more": 288
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 3,
+            "three_or_more": 553
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 2,
+            "three_or_more": 254
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 1,
+            "three_or_more": 299
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 250,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 502,
+          "ber": 0.008513189448441247,
+          "error_buckets": {
+            "zero": 502,
+            "one": 40,
+            "two": 11,
+            "three_or_more": 3
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 243,
+          "ber": 0.004166666666666667,
+          "error_buckets": {
+            "zero": 243,
+            "one": 10,
+            "two": 3,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 259,
+          "ber": 0.012222222222222223,
+          "error_buckets": {
+            "zero": 259,
+            "one": 30,
+            "two": 8,
+            "three_or_more": 3
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 507,
+          "ber": 0.007074340527577938,
+          "error_buckets": {
+            "zero": 507,
+            "one": 40,
+            "two": 8,
+            "three_or_more": 1
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 243,
+          "ber": 0.004166666666666667,
+          "error_buckets": {
+            "zero": 243,
+            "one": 10,
+            "two": 3,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 264,
+          "ber": 0.009555555555555555,
+          "error_buckets": {
+            "zero": 264,
+            "one": 30,
+            "two": 5,
+            "three_or_more": 1
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 1,
+          "ber": 0.3817745803357314,
+          "error_buckets": {
+            "zero": 1,
+            "one": 5,
+            "two": 13,
+            "three_or_more": 537
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 1,
+          "ber": 0.36666666666666664,
+          "error_buckets": {
+            "zero": 1,
+            "one": 1,
+            "two": 9,
+            "three_or_more": 245
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.39466666666666667,
+          "error_buckets": {
+            "zero": 0,
+            "one": 4,
+            "two": 4,
+            "three_or_more": 292
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 1,
+          "ber": 0.3737410071942446,
+          "error_buckets": {
+            "zero": 1,
+            "one": 4,
+            "two": 18,
+            "three_or_more": 533
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 1,
+          "ber": 0.35859375,
+          "error_buckets": {
+            "zero": 1,
+            "one": 3,
+            "two": 9,
+            "three_or_more": 243
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.38666666666666666,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 9,
+            "three_or_more": 290
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 2,
+            "three_or_more": 554
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 2,
+            "three_or_more": 254
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 300
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 500,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 467,
+          "ber": 0.01498800959232614,
+          "error_buckets": {
+            "zero": 467,
+            "one": 63,
+            "two": 18,
+            "three_or_more": 8
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 238,
+          "ber": 0.005989583333333334,
+          "error_buckets": {
+            "zero": 238,
+            "one": 15,
+            "two": 1,
+            "three_or_more": 2
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 229,
+          "ber": 0.02266666666666667,
+          "error_buckets": {
+            "zero": 229,
+            "one": 48,
+            "two": 17,
+            "three_or_more": 6
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 468,
+          "ber": 0.013669064748201438,
+          "error_buckets": {
+            "zero": 468,
+            "one": 67,
+            "two": 17,
+            "three_or_more": 4
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 235,
+          "ber": 0.007552083333333333,
+          "error_buckets": {
+            "zero": 235,
+            "one": 16,
+            "two": 3,
+            "three_or_more": 2
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 233,
+          "ber": 0.01888888888888889,
+          "error_buckets": {
+            "zero": 233,
+            "one": 51,
+            "two": 14,
+            "three_or_more": 2
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 2,
+          "ber": 0.3842925659472422,
+          "error_buckets": {
+            "zero": 2,
+            "one": 7,
+            "two": 14,
+            "three_or_more": 533
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 1,
+          "ber": 0.37135416666666665,
+          "error_buckets": {
+            "zero": 1,
+            "one": 4,
+            "two": 5,
+            "three_or_more": 246
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 1,
+          "ber": 0.3953333333333333,
+          "error_buckets": {
+            "zero": 1,
+            "one": 3,
+            "two": 9,
+            "three_or_more": 287
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3803357314148681,
+          "error_buckets": {
+            "zero": 0,
+            "one": 3,
+            "two": 15,
+            "three_or_more": 538
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.36380208333333336,
+          "error_buckets": {
+            "zero": 0,
+            "one": 3,
+            "two": 9,
+            "three_or_more": 244
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.39444444444444443,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 6,
+            "three_or_more": 294
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 3,
+            "three_or_more": 553
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 3,
+            "three_or_more": 253
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 300
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 750,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 423,
+          "ber": 0.023501199040767386,
+          "error_buckets": {
+            "zero": 423,
+            "one": 91,
+            "two": 27,
+            "three_or_more": 15
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 223,
+          "ber": 0.01015625,
+          "error_buckets": {
+            "zero": 223,
+            "one": 29,
+            "two": 2,
+            "three_or_more": 2
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 200,
+          "ber": 0.034888888888888886,
+          "error_buckets": {
+            "zero": 200,
+            "one": 62,
+            "two": 25,
+            "three_or_more": 13
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 423,
+          "ber": 0.02170263788968825,
+          "error_buckets": {
+            "zero": 423,
+            "one": 99,
+            "two": 25,
+            "three_or_more": 9
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 216,
+          "ber": 0.012760416666666666,
+          "error_buckets": {
+            "zero": 216,
+            "one": 36,
+            "two": 1,
+            "three_or_more": 3
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 207,
+          "ber": 0.029333333333333333,
+          "error_buckets": {
+            "zero": 207,
+            "one": 63,
+            "two": 24,
+            "three_or_more": 6
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 2,
+          "ber": 0.384652278177458,
+          "error_buckets": {
+            "zero": 2,
+            "one": 5,
+            "two": 16,
+            "three_or_more": 533
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 1,
+          "ber": 0.3731770833333333,
+          "error_buckets": {
+            "zero": 1,
+            "one": 2,
+            "two": 7,
+            "three_or_more": 246
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 1,
+          "ber": 0.39444444444444443,
+          "error_buckets": {
+            "zero": 1,
+            "one": 3,
+            "two": 9,
+            "three_or_more": 287
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3808153477218225,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 16,
+            "three_or_more": 539
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.36380208333333336,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 9,
+            "three_or_more": 246
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.3953333333333333,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 7,
+            "three_or_more": 293
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 2,
+            "three_or_more": 554
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 1,
+            "three_or_more": 255
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 1,
+            "three_or_more": 299
+          }
+        }
+      }
+    }
+  },
+  {
+    "step": 1000,
+    "paths": {
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 381,
+          "ber": 0.03261390887290168,
+          "error_buckets": {
+            "zero": 381,
+            "one": 114,
+            "two": 35,
+            "three_or_more": 26
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 205,
+          "ber": 0.016145833333333335,
+          "error_buckets": {
+            "zero": 205,
+            "one": 42,
+            "two": 7,
+            "three_or_more": 2
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 176,
+          "ber": 0.04666666666666667,
+          "error_buckets": {
+            "zero": 176,
+            "one": 72,
+            "two": 28,
+            "three_or_more": 24
+          }
+        }
+      },
+      "geometry_color_clamp": {
+        "all": {
+          "n": 556,
+          "exact": 387,
+          "ber": 0.028896882494004798,
+          "error_buckets": {
+            "zero": 387,
+            "one": 117,
+            "two": 39,
+            "three_or_more": 13
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 204,
+          "ber": 0.0171875,
+          "error_buckets": {
+            "zero": 204,
+            "one": 43,
+            "two": 6,
+            "three_or_more": 3
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 183,
+          "ber": 0.03888888888888889,
+          "error_buckets": {
+            "zero": 183,
+            "one": 74,
+            "two": 33,
+            "three_or_more": 10
+          }
+        }
+      },
+      "reconstruction": {
+        "all": {
+          "n": 556,
+          "exact": 2,
+          "ber": 0.389568345323741,
+          "error_buckets": {
+            "zero": 2,
+            "one": 3,
+            "two": 12,
+            "three_or_more": 539
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 1,
+          "ber": 0.3768229166666667,
+          "error_buckets": {
+            "zero": 1,
+            "one": 2,
+            "two": 6,
+            "three_or_more": 247
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 1,
+          "ber": 0.40044444444444444,
+          "error_buckets": {
+            "zero": 1,
+            "one": 1,
+            "two": 6,
+            "three_or_more": 292
+          }
+        }
+      },
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.3842925659472422,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 14,
+            "three_or_more": 541
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.37005208333333334,
+          "error_buckets": {
+            "zero": 0,
+            "one": 1,
+            "two": 6,
+            "three_or_more": 249
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.39644444444444443,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 8,
+            "three_or_more": 292
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 2,
+            "three_or_more": 554
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 1,
+            "three_or_more": 255
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 1,
+            "three_or_more": 299
+          }
+        }
+      }
+    }
+  }
+]

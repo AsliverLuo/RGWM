@@ -1,0 +1,74 @@
+{
+  "arm": "j1",
+  "seed": 0,
+  "steps": 1000,
+  "device": "cuda:1",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "script_sha256": "fa429b83eb0e1290b75232d68469ebb140d2300cae0a62a175905903906c0e6f",
+  "checkpoint_sha256": "848730563f4f6f066dabb61c7b0da6adc03a0fc40aa0605a90972f7bfe03331c",
+  "plan_sha256": "397ef17f9539f456f904da17c1a7a0c67b691ce1eb1fb2b67478454d0d42260d",
+  "manifest_sha256": "a924c055082c7dd6e6b514b1b716e0a1032177955afc6d61ebb03c4d370f6bec",
+  "design_sha256": "1b634c79b278cfc4c749242cf565d69721c701166941e78631f8d3cf50f84dd9",
+  "oldpan_sha256": "891e71fe6936c153efde6b3bb5ff6f847a0c363c3767f28f2d861f616f67128f",
+  "start_hashes": {
+    "encoder": "60a19cb80240282599ae135bc4a556f418bf254716020fbdf89d8c412a1af60f",
+    "decoder": "441fe81dd8261014a70a4e96c91e25e56db7cc2a72788308c9773340aaae72d1",
+    "oldpan": "71973d4e0f69f24ab43df714e51953ea952576daf91e6f2d24e0e88b0e09cb54"
+  },
+  "batch_size": 16,
+  "micro_batch": 8,
+  "lr": 5e-06,
+  "processed_weight": 0.25,
+  "encoder_bn_stats_frozen": true,
+  "decoder_bn_stats_frozen": true,
+  "epsilon": 0.03137254901960784,
+  "training_carriers": 16,
+  "same_pairs": 512,
+  "new_pairs": 556,
+  "test_images_read": 0,
+  "torch_version": "2.8.0+cu128",
+  "end_hashes": {
+    "encoder": "f6ab3b800c1cbb21c77f0f129f98a1f2a515166a244cca965fc46b259d9150d6",
+    "decoder": "505429b93a1c221ac5c6316661127b88414814838bcd22381237c4d88b422cfb",
+    "oldpan": "71973d4e0f69f24ab43df714e51953ea952576daf91e6f2d24e0e88b0e09cb54"
+  },
+  "gradient_probes": {
+    "0": {
+      "cage": {
+        "encoder_grad_norm": 4.179624888061256,
+        "image_grad_norm": 0.108138807117939,
+        "bce": 0.6123724579811096
+      },
+      "trump": {
+        "encoder_grad_norm": 5.253164734812914,
+        "image_grad_norm": 0.10332977771759033,
+        "bce": 0.63594651222229
+      }
+    },
+    "500": {
+      "cage": {
+        "encoder_grad_norm": 6.896277052691717,
+        "image_grad_norm": 0.14404527842998505,
+        "bce": 0.5086350440979004
+      },
+      "trump": {
+        "encoder_grad_norm": 9.113573350540738,
+        "image_grad_norm": 0.14230820536613464,
+        "bce": 0.4924531877040863
+      }
+    },
+    "1000": {
+      "cage": {
+        "encoder_grad_norm": 12.577923737336315,
+        "image_grad_norm": 0.19800058007240295,
+        "bce": 0.4772653877735138
+      },
+      "trump": {
+        "encoder_grad_norm": 11.095028319832817,
+        "image_grad_norm": 0.1591433584690094,
+        "bce": 0.3821718096733093
+      }
+    }
+  },
+  "final_checkpoint_sha256": "c51f7c55f0852bebcec4b89633057cc0cf95bdea369c579ab4d9f7e685cb956c"
+}

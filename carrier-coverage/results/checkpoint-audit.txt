@@ -1,0 +1,3 @@
+n16 verified shared start, frozen BN buffers, fresh Adam, 6000 Adam steps, cursor 96000
+n64 verified shared start, frozen BN buffers, fresh Adam, 6000 Adam steps, cursor 96000
+n416 verified shared start, frozen BN buffers, fresh Adam, 6000 Adam steps, cursor 96000

@@ -1,0 +1,30 @@
+{
+  "arm": "d2",
+  "seed": 0,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "device": "cuda:1",
+  "lr": 5e-06,
+  "optimizer": "Adam",
+  "weight_decay": 1e-05,
+  "trainable": "decoder_only",
+  "bn_running_stats_frozen": true,
+  "small": false,
+  "steps": 1000,
+  "batch_size": 16,
+  "micro_batch": 8,
+  "checkpoint_sha256": "848730563f4f6f066dabb61c7b0da6adc03a0fc40aa0605a90972f7bfe03331c",
+  "manifest_sha256": "a924c055082c7dd6e6b514b1b716e0a1032177955afc6d61ebb03c4d370f6bec",
+  "design_sha256": "1b634c79b278cfc4c749242cf565d69721c701166941e78631f8d3cf50f84dd9",
+  "plan_sha256": "c1c238e545fcf1ae7d6a1eaf2dba5b44228adcf7a0630971c8ebf783769553c3",
+  "adapter_sha256": "891e71fe6936c153efde6b3bb5ff6f847a0c363c3767f28f2d861f616f67128f",
+  "script_sha256": "66688f3fd5513c4c539154c49a8340f29e230db4d9ac9ce7740d589063109138",
+  "validation_images": 139,
+  "validation_pairs": 556,
+  "test_images_read": 0,
+  "torch_version": "2.8.0+cu128",
+  "frozen_before": {
+    "encoder": "60a19cb80240282599ae135bc4a556f418bf254716020fbdf89d8c412a1af60f",
+    "oldpan": "71973d4e0f69f24ab43df714e51953ea952576daf91e6f2d24e0e88b0e09cb54"
+  },
+  "decoder_initial": "441fe81dd8261014a70a4e96c91e25e56db7cc2a72788308c9773340aaae72d1"
+}

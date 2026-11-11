@@ -1,0 +1,71 @@
+{
+  "arm": "d2",
+  "seed": 0,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "device": "cuda:2",
+  "lr": 5e-06,
+  "optimizer": "Adam",
+  "weight_decay": 1e-05,
+  "trainable": "decoder_only",
+  "bn_running_stats_frozen": true,
+  "small": true,
+  "steps": 1000,
+  "batch_size": 16,
+  "micro_batch": 8,
+  "checkpoint_sha256": "848730563f4f6f066dabb61c7b0da6adc03a0fc40aa0605a90972f7bfe03331c",
+  "manifest_sha256": "a924c055082c7dd6e6b514b1b716e0a1032177955afc6d61ebb03c4d370f6bec",
+  "design_sha256": "1b634c79b278cfc4c749242cf565d69721c701166941e78631f8d3cf50f84dd9",
+  "plan_sha256": "4601e7aaaa4d3c7e0df6fcbf4cb14806016328c9f43e90a831b2457fa73b24b6",
+  "adapter_sha256": "891e71fe6936c153efde6b3bb5ff6f847a0c363c3767f28f2d861f616f67128f",
+  "script_sha256": "66688f3fd5513c4c539154c49a8340f29e230db4d9ac9ce7740d589063109138",
+  "validation_images": 139,
+  "validation_pairs": 556,
+  "test_images_read": 0,
+  "torch_version": "2.8.0+cu128",
+  "frozen_before": {
+    "encoder": "60a19cb80240282599ae135bc4a556f418bf254716020fbdf89d8c412a1af60f",
+    "oldpan": "71973d4e0f69f24ab43df714e51953ea952576daf91e6f2d24e0e88b0e09cb54"
+  },
+  "decoder_initial": "441fe81dd8261014a70a4e96c91e25e56db7cc2a72788308c9773340aaae72d1",
+  "frozen_after": {
+    "encoder": "60a19cb80240282599ae135bc4a556f418bf254716020fbdf89d8c412a1af60f",
+    "oldpan": "71973d4e0f69f24ab43df714e51953ea952576daf91e6f2d24e0e88b0e09cb54"
+  },
+  "decoder_final": "de65d00be077623d2df4020f50feffa495cd6c2a9998df73a8db747b2bd533b5",
+  "fit_diagnostic": {
+    "seen_cover_seen_pair": {
+      "n": 64,
+      "exact": 64,
+      "ber": 0.0,
+      "error_buckets": {
+        "zero": 64,
+        "one": 0,
+        "two": 0,
+        "three_or_more": 0
+      }
+    },
+    "seen_cover_new_message": {
+      "n": 64,
+      "exact": 0,
+      "ber": 0.4,
+      "error_buckets": {
+        "zero": 0,
+        "one": 0,
+        "two": 0,
+        "three_or_more": 64
+      }
+    },
+    "new_cover_seen_message": {
+      "n": 64,
+      "exact": 0,
+      "ber": 0.33645833333333336,
+      "error_buckets": {
+        "zero": 0,
+        "one": 2,
+        "two": 6,
+        "three_or_more": 56
+      }
+    }
+  },
+  "final_checkpoint_sha256": "57e4ce61678224040281b50612f726777afe5f3ce36f90091382bdeae0b63124"
+}

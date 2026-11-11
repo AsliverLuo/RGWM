@@ -1,0 +1,952 @@
+{
+  "checkpoint": "runs/author64-distortion-selected/latest.pt",
+  "checkpoint_sha256": "a1177c2a315e5f71c96ff264de1d570b1ed46ec4da9e508b4f6b481f2d04a4d7",
+  "manifest_sha256": "a924c055082c7dd6e6b514b1b716e0a1032177955afc6d61ebb03c4d370f6bec",
+  "design_sha256": "1b634c79b278cfc4c749242cf565d69721c701166941e78631f8d3cf50f84dd9",
+  "historical_sha256": "3e2fb9c661df72187a5385d768485e5d79401c55983b123e2cdfb09124dd029a",
+  "adapter_weights_sha256": "891e71fe6936c153efde6b3bb5ff6f847a0c363c3767f28f2d861f616f67128f",
+  "adapter_preprocess": {
+    "protocol_id": "trump-cage-rgb160-oldpan64-v1",
+    "color_space": "BGR",
+    "carrier_color": "RGB",
+    "image_size": 160,
+    "native_resolution": 64,
+    "range": [
+      0,
+      1
+    ],
+    "carrier": "cv2.resize256 uint8; RGB crop[48:208,48:208]; no mean shift in stored PNG",
+    "native_sampling": "carrier coordinates2.5*j,j=0..63; bilinear border align_cornersTrue",
+    "native_color": "BGR; add fixed offset only for input target identity trump; no clipping",
+    "output": "native sigmoid BGR->RGB; sample native coordinate0.4*i,i=0..159; border",
+    "features": "raw native64 BGR pre-sigmoid; no output interpolation or RGB flip",
+    "region_coordinates": "same160 carrier; categorical native maps use nearest at2.5*j",
+    "calibration_hash": "d7c9ac6f00094eb9e522d84996ec2dfb9d3ba95978d4225a45d32a75b050d9f6",
+    "author_lock_hash": "b41d7b78bfaa39638f046ab92ac69ebe0d05d23de820c583c78b79a586d18c85",
+    "adapter_source_hash": "8ae0f41f0fde15bc7c5af9e948727d4960830b76cf7b9cf8b05ec4338b8e8a89",
+    "quality_acceptance": "conditional pilot only"
+  },
+  "assets_sha256": "59be5bb6b347dd3cced733020306193f65b3a1044938c003054dd66274484429",
+  "script_sha256": "a0cb3b05f32388d55056ff3fcdbdfccd9fa10c1720a96d72b9601b484ed1642d",
+  "device": "cuda:1",
+  "torch_version": "2.8.0+cu128",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "validation_images": 139,
+  "validation_pairs": 556,
+  "prediction_rows": 3336,
+  "test_images_read": 0,
+  "epsilon": 0.03137254901960784,
+  "max_watermark_linf": 0.03137257695198059,
+  "cage_geometry_color_max_abs_difference": 0.0,
+  "geometry_color_range": {
+    "all": {
+      "n_channel_values": 42700800,
+      "below_zero": 0,
+      "above_one": 180257,
+      "pairs_outside": 164
+    },
+    "cage": {
+      "n_channel_values": 19660800,
+      "below_zero": 0,
+      "above_one": 0,
+      "pairs_outside": 0
+    },
+    "trump": {
+      "n_channel_values": 23040000,
+      "below_zero": 0,
+      "above_one": 180257,
+      "pairs_outside": 164
+    }
+  },
+  "by_path": {
+    "direct": {
+      "all": {
+        "n": 556,
+        "exact": 535,
+        "ber": 0.0026378896882494,
+        "wmr": 0.9622302158273381,
+        "error_histogram": [
+          535,
+          20,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cage": {
+        "n": 256,
+        "exact": 249,
+        "ber": 0.0018229166666666667,
+        "wmr": 0.97265625,
+        "error_histogram": [
+          249,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "trump": {
+        "n": 300,
+        "exact": 286,
+        "ber": 0.0033333333333333335,
+        "wmr": 0.9533333333333334,
+        "error_histogram": [
+          286,
+          13,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "geometry_only": {
+      "all": {
+        "n": 556,
+        "exact": 533,
+        "ber": 0.003117505995203837,
+        "wmr": 0.9586330935251799,
+        "error_histogram": [
+          533,
+          21,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cage": {
+        "n": 256,
+        "exact": 251,
+        "ber": 0.0015625,
+        "wmr": 0.98046875,
+        "error_histogram": [
+          251,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "trump": {
+        "n": 300,
+        "exact": 282,
+        "ber": 0.0044444444444444444,
+        "wmr": 0.94,
+        "error_histogram": [
+          282,
+          17,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "geometry_color": {
+      "all": {
+        "n": 556,
+        "exact": 534,
+        "ber": 0.002997601918465228,
+        "wmr": 0.960431654676259,
+        "error_histogram": [
+          534,
+          19,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cage": {
+        "n": 256,
+        "exact": 251,
+        "ber": 0.0015625,
+        "wmr": 0.98046875,
+        "error_histogram": [
+          251,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "trump": {
+        "n": 300,
+        "exact": 283,
+        "ber": 0.004222222222222223,
+        "wmr": 0.9433333333333334,
+        "error_histogram": [
+          283,
+          15,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "geometry_color_clamp": {
+      "all": {
+        "n": 556,
+        "exact": 534,
+        "ber": 0.002997601918465228,
+        "wmr": 0.960431654676259,
+        "error_histogram": [
+          534,
+          19,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cage": {
+        "n": 256,
+        "exact": 251,
+        "ber": 0.0015625,
+        "wmr": 0.98046875,
+        "error_histogram": [
+          251,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "trump": {
+        "n": 300,
+        "exact": 283,
+        "ber": 0.004222222222222223,
+        "wmr": 0.9433333333333334,
+        "error_histogram": [
+          283,
+          15,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "reconstruction": {
+      "all": {
+        "n": 556,
+        "exact": 0,
+        "ber": 0.46235011990407676,
+        "wmr": 0.0,
+        "error_histogram": [
+          0,
+          1,
+          14,
+          24,
+          53,
+          61,
+          87,
+          84,
+          84,
+          70,
+          44,
+          24,
+          8,
+          2,
+          0,
+          0
+        ]
+      },
+      "cage": {
+        "n": 256,
+        "exact": 0,
+        "ber": 0.46328125,
+        "wmr": 0.0,
+        "error_histogram": [
+          0,
+          0,
+          9,
+          13,
+          24,
+          30,
+          29,
+          38,
+          46,
+          28,
+          23,
+          8,
+          6,
+          2,
+          0,
+          0
+        ]
+      },
+      "trump": {
+        "n": 300,
+        "exact": 0,
+        "ber": 0.46155555555555555,
+        "wmr": 0.0,
+        "error_histogram": [
+          0,
+          1,
+          5,
+          11,
+          29,
+          31,
+          58,
+          46,
+          38,
+          42,
+          21,
+          16,
+          2,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "swap": {
+      "all": {
+        "n": 556,
+        "exact": 0,
+        "ber": 0.45419664268585136,
+        "wmr": 0.0,
+        "error_histogram": [
+          0,
+          4,
+          20,
+          30,
+          44,
+          69,
+          73,
+          95,
+          81,
+          72,
+          36,
+          14,
+          14,
+          4,
+          0,
+          0
+        ]
+      },
+      "cage": {
+        "n": 256,
+        "exact": 0,
+        "ber": 0.45625,
+        "wmr": 0.0,
+        "error_histogram": [
+          0,
+          2,
+          6,
+          10,
+          29,
+          34,
+          30,
+          36,
+          44,
+          33,
+          20,
+          4,
+          7,
+          1,
+          0,
+          0
+        ]
+      },
+      "trump": {
+        "n": 300,
+        "exact": 0,
+        "ber": 0.4524444444444445,
+        "wmr": 0.0,
+        "error_histogram": [
+          0,
+          2,
+          14,
+          20,
+          15,
+          35,
+          43,
+          59,
+          37,
+          39,
+          16,
+          10,
+          7,
+          3,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "historical_replay": [
+    {
+      "path": "direct",
+      "scope": "all",
+      "expected": {
+        "n": 556,
+        "ber": 0.0026378896882494006,
+        "exact": 535
+      },
+      "actual": {
+        "n": 556,
+        "exact": 535,
+        "ber": 0.0026378896882494
+      },
+      "match": true
+    },
+    {
+      "path": "direct",
+      "scope": "cage",
+      "expected": {
+        "n": 256,
+        "ber": 0.0018229166666666667,
+        "exact": 249
+      },
+      "actual": {
+        "n": 256,
+        "exact": 249,
+        "ber": 0.0018229166666666667
+      },
+      "match": true
+    },
+    {
+      "path": "direct",
+      "scope": "trump",
+      "expected": {
+        "n": 300,
+        "ber": 0.0033333333333333335,
+        "exact": 286
+      },
+      "actual": {
+        "n": 300,
+        "exact": 286,
+        "ber": 0.0033333333333333335
+      },
+      "match": true
+    },
+    {
+      "path": "geometry_only",
+      "scope": "all",
+      "expected": {
+        "n": 556,
+        "ber": 0.003117505995203837,
+        "exact": 533
+      },
+      "actual": {
+        "n": 556,
+        "exact": 533,
+        "ber": 0.003117505995203837
+      },
+      "match": true
+    },
+    {
+      "path": "geometry_only",
+      "scope": "cage",
+      "expected": {
+        "n": 256,
+        "ber": 0.0015625,
+        "exact": 251
+      },
+      "actual": {
+        "n": 256,
+        "exact": 251,
+        "ber": 0.0015625
+      },
+      "match": true
+    },
+    {
+      "path": "geometry_only",
+      "scope": "trump",
+      "expected": {
+        "n": 300,
+        "ber": 0.0044444444444444444,
+        "exact": 282
+      },
+      "actual": {
+        "n": 300,
+        "exact": 282,
+        "ber": 0.0044444444444444444
+      },
+      "match": true
+    },
+    {
+      "path": "reconstruction",
+      "scope": "all",
+      "expected": {
+        "n": 556,
+        "ber": 0.46235011990407676,
+        "exact": 0
+      },
+      "actual": {
+        "n": 556,
+        "exact": 0,
+        "ber": 0.46235011990407676
+      },
+      "match": true
+    },
+    {
+      "path": "reconstruction",
+      "scope": "cage",
+      "expected": {
+        "n": 256,
+        "ber": 0.46328125,
+        "exact": 0
+      },
+      "actual": {
+        "n": 256,
+        "exact": 0,
+        "ber": 0.46328125
+      },
+      "match": true
+    },
+    {
+      "path": "reconstruction",
+      "scope": "trump",
+      "expected": {
+        "n": 300,
+        "ber": 0.46155555555555555,
+        "exact": 0
+      },
+      "actual": {
+        "n": 300,
+        "exact": 0,
+        "ber": 0.46155555555555555
+      },
+      "match": true
+    },
+    {
+      "path": "swap",
+      "scope": "all",
+      "expected": {
+        "n": 556,
+        "ber": 0.4541966426858513,
+        "exact": 0
+      },
+      "actual": {
+        "n": 556,
+        "exact": 0,
+        "ber": 0.45419664268585136
+      },
+      "match": true
+    },
+    {
+      "path": "swap",
+      "scope": "cage",
+      "expected": {
+        "n": 256,
+        "ber": 0.45625,
+        "exact": 0
+      },
+      "actual": {
+        "n": 256,
+        "exact": 0,
+        "ber": 0.45625
+      },
+      "match": true
+    },
+    {
+      "path": "swap",
+      "scope": "trump",
+      "expected": {
+        "n": 300,
+        "ber": 0.4524444444444444,
+        "exact": 0
+      },
+      "actual": {
+        "n": 300,
+        "exact": 0,
+        "ber": 0.4524444444444445
+      },
+      "match": true
+    }
+  ],
+  "paired": {
+    "all": {
+      "geometry_only_minus_direct": {
+        "scope": "all",
+        "n": 556,
+        "groups": 133,
+        "ber_delta": 0.00047961630695443646,
+        "ber_ci95": [
+          -0.0005952380952380952,
+          0.0016431924882629107
+        ],
+        "wmr_delta": -0.0035971223021582736,
+        "wmr_ci95": [
+          -0.02022058823529412,
+          0.01111318407960196
+        ],
+        "exact_gained": 7,
+        "exact_lost": 9
+      },
+      "geometry_color_minus_geometry_only": {
+        "scope": "all",
+        "n": 556,
+        "groups": 133,
+        "ber_delta": -0.00011990407673860912,
+        "ber_ci95": [
+          -0.0008578431372549018,
+          0.0007092198581560284
+        ],
+        "wmr_delta": 0.0017985611510791368,
+        "wmr_ci95": [
+          -0.0072992700729927005,
+          0.011029411764705883
+        ],
+        "exact_gained": 4,
+        "exact_lost": 3
+      },
+      "geometry_color_clamp_minus_geometry_color": {
+        "scope": "all",
+        "n": 556,
+        "groups": 133,
+        "ber_delta": 0.0,
+        "ber_ci95": [
+          0.0,
+          0.0
+        ],
+        "wmr_delta": 0.0,
+        "wmr_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_gained": 0,
+        "exact_lost": 0
+      },
+      "reconstruction_minus_geometry_color": {
+        "scope": "all",
+        "n": 556,
+        "groups": 133,
+        "ber_delta": 0.4593525179856115,
+        "ber_ci95": [
+          0.4525735294117646,
+          0.46587956706706735
+        ],
+        "wmr_delta": -0.960431654676259,
+        "wmr_ci95": [
+          -0.9813451744655103,
+          -0.9351851851851852
+        ],
+        "exact_gained": 0,
+        "exact_lost": 534
+      },
+      "swap_minus_reconstruction": {
+        "scope": "all",
+        "n": 556,
+        "groups": 133,
+        "ber_delta": -0.00815347721822542,
+        "ber_ci95": [
+          -0.015308641975308644,
+          -0.0010563380281690144
+        ],
+        "wmr_delta": 0.0,
+        "wmr_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_gained": 0,
+        "exact_lost": 0
+      }
+    },
+    "cage": {
+      "geometry_only_minus_direct": {
+        "scope": "cage",
+        "n": 256,
+        "groups": 59,
+        "ber_delta": -0.0002604166666666666,
+        "ber_ci95": [
+          -0.0017412935323383083,
+          0.0013661202185792352
+        ],
+        "wmr_delta": 0.0078125,
+        "wmr_ci95": [
+          -0.01563120039682539,
+          0.028225806451612902
+        ],
+        "exact_gained": 4,
+        "exact_lost": 2
+      },
+      "geometry_color_minus_geometry_only": {
+        "scope": "cage",
+        "n": 256,
+        "groups": 59,
+        "ber_delta": 0.0,
+        "ber_ci95": [
+          0.0,
+          0.0
+        ],
+        "wmr_delta": 0.0,
+        "wmr_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_gained": 0,
+        "exact_lost": 0
+      },
+      "geometry_color_clamp_minus_geometry_color": {
+        "scope": "cage",
+        "n": 256,
+        "groups": 59,
+        "ber_delta": 0.0,
+        "ber_ci95": [
+          0.0,
+          0.0
+        ],
+        "wmr_delta": 0.0,
+        "wmr_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_gained": 0,
+        "exact_lost": 0
+      },
+      "reconstruction_minus_geometry_color": {
+        "scope": "cage",
+        "n": 256,
+        "groups": 59,
+        "ber_delta": 0.46171874999999996,
+        "ber_ci95": [
+          0.4505376344086022,
+          0.4723880597014923
+        ],
+        "wmr_delta": -0.98046875,
+        "wmr_ci95": [
+          -1.0,
+          -0.9549180327868853
+        ],
+        "exact_gained": 0,
+        "exact_lost": 251
+      },
+      "swap_minus_reconstruction": {
+        "scope": "cage",
+        "n": 256,
+        "groups": 59,
+        "ber_delta": -0.00703125,
+        "ber_ci95": [
+          -0.018279569892473122,
+          0.0033854166666666668
+        ],
+        "wmr_delta": 0.0,
+        "wmr_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_gained": 0,
+        "exact_lost": 0
+      }
+    },
+    "trump": {
+      "geometry_only_minus_direct": {
+        "scope": "trump",
+        "n": 300,
+        "groups": 74,
+        "ber_delta": 0.0011111111111111111,
+        "ber_ci95": [
+          -0.0004385964912280702,
+          0.0027027027027027024
+        ],
+        "wmr_delta": -0.013333333333333334,
+        "wmr_ci95": [
+          -0.03666666666666667,
+          0.006756756756756757
+        ],
+        "exact_gained": 3,
+        "exact_lost": 7
+      },
+      "geometry_color_minus_geometry_only": {
+        "scope": "trump",
+        "n": 300,
+        "groups": 74,
+        "ber_delta": -0.0002222222222222222,
+        "ber_ci95": [
+          -0.0015765765765765765,
+          0.0013157894736842105
+        ],
+        "wmr_delta": 0.0033333333333333335,
+        "wmr_ci95": [
+          -0.013513513513513514,
+          0.02027027027027027
+        ],
+        "exact_gained": 4,
+        "exact_lost": 3
+      },
+      "geometry_color_clamp_minus_geometry_color": {
+        "scope": "trump",
+        "n": 300,
+        "groups": 74,
+        "ber_delta": 0.0,
+        "ber_ci95": [
+          0.0,
+          0.0
+        ],
+        "wmr_delta": 0.0,
+        "wmr_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_gained": 0,
+        "exact_lost": 0
+      },
+      "reconstruction_minus_geometry_color": {
+        "scope": "trump",
+        "n": 300,
+        "groups": 74,
+        "ber_delta": 0.4573333333333333,
+        "ber_ci95": [
+          0.4495555555555555,
+          0.46531531531531506
+        ],
+        "wmr_delta": -0.9433333333333334,
+        "wmr_ci95": [
+          -0.9766666666666667,
+          -0.902027027027027
+        ],
+        "exact_gained": 0,
+        "exact_lost": 283
+      },
+      "swap_minus_reconstruction": {
+        "scope": "trump",
+        "n": 300,
+        "groups": 74,
+        "ber_delta": -0.009111111111111113,
+        "ber_ci95": [
+          -0.01891891891891892,
+          0.0004504504504504502
+        ],
+        "wmr_delta": 0.0,
+        "wmr_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_gained": 0,
+        "exact_lost": 0
+      }
+    }
+  }
+}

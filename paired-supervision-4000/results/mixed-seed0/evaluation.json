@@ -1,0 +1,3341 @@
+[
+  {
+    "step": 2000,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 64,
+            "ber": 0.12526041666666668,
+            "error_buckets": {
+              "zero": 64,
+              "one": 148,
+              "two": 158,
+              "three_or_more": 142
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 33,
+            "ber": 0.11848958333333333,
+            "error_buckets": {
+              "zero": 33,
+              "one": 83,
+              "two": 78,
+              "three_or_more": 62
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 31,
+            "ber": 0.13203125,
+            "error_buckets": {
+              "zero": 31,
+              "one": 65,
+              "two": 80,
+              "three_or_more": 80
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 511
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 469,
+            "ber": 0.006119791666666667,
+            "error_buckets": {
+              "zero": 469,
+              "one": 39,
+              "two": 4,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 240,
+            "ber": 0.004166666666666667,
+            "error_buckets": {
+              "zero": 240,
+              "one": 16,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 229,
+            "ber": 0.008072916666666667,
+            "error_buckets": {
+              "zero": 229,
+              "one": 23,
+              "two": 4,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4444910534657538,
+          "mean_budget_saturated": 0.43753192701842636,
+          "mean_psnr": 32.1685572882356
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 3,
+            "ber": 0.3013189448441247,
+            "error_buckets": {
+              "zero": 3,
+              "one": 21,
+              "two": 63,
+              "three_or_more": 469
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 3,
+            "ber": 0.2747395833333333,
+            "error_buckets": {
+              "zero": 3,
+              "one": 16,
+              "two": 34,
+              "three_or_more": 203
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.324,
+            "error_buckets": {
+              "zero": 0,
+              "one": 5,
+              "two": 29,
+              "three_or_more": 266
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 1,
+              "two": 2,
+              "three_or_more": 553
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 1,
+              "two": 1,
+              "three_or_more": 298
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 514,
+            "ber": 0.007434052757793765,
+            "error_buckets": {
+              "zero": 514,
+              "one": 27,
+              "two": 11,
+              "three_or_more": 4
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 247,
+            "ber": 0.00390625,
+            "error_buckets": {
+              "zero": 247,
+              "one": 4,
+              "two": 4,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 267,
+            "ber": 0.010444444444444444,
+            "error_buckets": {
+              "zero": 267,
+              "one": 23,
+              "two": 7,
+              "three_or_more": 3
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 514,
+            "ber": 0.007553956834532374,
+            "error_buckets": {
+              "zero": 514,
+              "one": 26,
+              "two": 12,
+              "three_or_more": 4
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 247,
+            "ber": 0.00390625,
+            "error_buckets": {
+              "zero": 247,
+              "one": 4,
+              "two": 4,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 267,
+            "ber": 0.010666666666666666,
+            "error_buckets": {
+              "zero": 267,
+              "one": 22,
+              "two": 8,
+              "three_or_more": 3
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 419,
+            "ber": 0.022781774580335732,
+            "error_buckets": {
+              "zero": 419,
+              "one": 105,
+              "two": 21,
+              "three_or_more": 11
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 204,
+            "ber": 0.016145833333333335,
+            "error_buckets": {
+              "zero": 204,
+              "one": 45,
+              "two": 4,
+              "three_or_more": 3
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 215,
+            "ber": 0.028444444444444446,
+            "error_buckets": {
+              "zero": 215,
+              "one": 60,
+              "two": 17,
+              "three_or_more": 8
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4467686895522282,
+          "mean_budget_saturated": 0.4367681274311148,
+          "mean_psnr": 32.17133491064285
+        }
+      }
+    }
+  },
+  {
+    "step": 2250,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 96,
+            "ber": 0.10690104166666667,
+            "error_buckets": {
+              "zero": 96,
+              "one": 172,
+              "two": 131,
+              "three_or_more": 113
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 59,
+            "ber": 0.09375,
+            "error_buckets": {
+              "zero": 59,
+              "one": 87,
+              "two": 68,
+              "three_or_more": 42
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 37,
+            "ber": 0.12005208333333334,
+            "error_buckets": {
+              "zero": 37,
+              "one": 85,
+              "two": 63,
+              "three_or_more": 71
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 4,
+              "three_or_more": 508
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 3,
+              "three_or_more": 253
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 472,
+            "ber": 0.005598958333333333,
+            "error_buckets": {
+              "zero": 472,
+              "one": 37,
+              "two": 3,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 240,
+            "ber": 0.004166666666666667,
+            "error_buckets": {
+              "zero": 240,
+              "one": 16,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 232,
+            "ber": 0.00703125,
+            "error_buckets": {
+              "zero": 232,
+              "one": 21,
+              "two": 3,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.44188627641415223,
+          "mean_budget_saturated": 0.4347309736767784,
+          "mean_psnr": 32.18679826051256
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 2,
+            "ber": 0.29412470023980813,
+            "error_buckets": {
+              "zero": 2,
+              "one": 33,
+              "two": 54,
+              "three_or_more": 467
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 1,
+            "ber": 0.2640625,
+            "error_buckets": {
+              "zero": 1,
+              "one": 25,
+              "two": 33,
+              "three_or_more": 197
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 1,
+            "ber": 0.31977777777777777,
+            "error_buckets": {
+              "zero": 1,
+              "one": 8,
+              "two": 21,
+              "three_or_more": 270
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 5,
+              "three_or_more": 551
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 4,
+              "three_or_more": 296
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 509,
+            "ber": 0.00815347721822542,
+            "error_buckets": {
+              "zero": 509,
+              "one": 31,
+              "two": 13,
+              "three_or_more": 3
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 246,
+            "ber": 0.0046875,
+            "error_buckets": {
+              "zero": 246,
+              "one": 4,
+              "two": 5,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 263,
+            "ber": 0.011111111111111112,
+            "error_buckets": {
+              "zero": 263,
+              "one": 27,
+              "two": 8,
+              "three_or_more": 2
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 510,
+            "ber": 0.00803357314148681,
+            "error_buckets": {
+              "zero": 510,
+              "one": 30,
+              "two": 13,
+              "three_or_more": 3
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 246,
+            "ber": 0.0046875,
+            "error_buckets": {
+              "zero": 246,
+              "one": 4,
+              "two": 5,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 264,
+            "ber": 0.010888888888888889,
+            "error_buckets": {
+              "zero": 264,
+              "one": 26,
+              "two": 8,
+              "three_or_more": 2
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 453,
+            "ber": 0.01858513189448441,
+            "error_buckets": {
+              "zero": 453,
+              "one": 70,
+              "two": 22,
+              "three_or_more": 11
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 227,
+            "ber": 0.010677083333333334,
+            "error_buckets": {
+              "zero": 227,
+              "one": 20,
+              "two": 7,
+              "three_or_more": 2
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 226,
+            "ber": 0.025333333333333333,
+            "error_buckets": {
+              "zero": 226,
+              "one": 50,
+              "two": 15,
+              "three_or_more": 9
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.44216683201438234,
+          "mean_budget_saturated": 0.4321824054923847,
+          "mean_psnr": 32.1948851874189
+        }
+      }
+    }
+  },
+  {
+    "step": 2500,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 70,
+            "ber": 0.12278645833333333,
+            "error_buckets": {
+              "zero": 70,
+              "one": 166,
+              "two": 141,
+              "three_or_more": 135
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 46,
+            "ber": 0.11119791666666666,
+            "error_buckets": {
+              "zero": 46,
+              "one": 89,
+              "two": 66,
+              "three_or_more": 55
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 24,
+            "ber": 0.134375,
+            "error_buckets": {
+              "zero": 24,
+              "one": 77,
+              "two": 75,
+              "three_or_more": 80
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 511
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 475,
+            "ber": 0.0049479166666666664,
+            "error_buckets": {
+              "zero": 475,
+              "one": 36,
+              "two": 1,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 246,
+            "ber": 0.0026041666666666665,
+            "error_buckets": {
+              "zero": 246,
+              "one": 10,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 229,
+            "ber": 0.007291666666666667,
+            "error_buckets": {
+              "zero": 229,
+              "one": 26,
+              "two": 1,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.43046123278327286,
+          "mean_budget_saturated": 0.42318736790912226,
+          "mean_psnr": 32.25025960283328
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 5,
+            "ber": 0.304916067146283,
+            "error_buckets": {
+              "zero": 5,
+              "one": 26,
+              "two": 61,
+              "three_or_more": 464
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 3,
+            "ber": 0.2716145833333333,
+            "error_buckets": {
+              "zero": 3,
+              "one": 21,
+              "two": 35,
+              "three_or_more": 197
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 2,
+            "ber": 0.3333333333333333,
+            "error_buckets": {
+              "zero": 2,
+              "one": 5,
+              "two": 26,
+              "three_or_more": 267
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 4,
+              "three_or_more": 552
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 3,
+              "three_or_more": 297
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 512,
+            "ber": 0.007314148681055156,
+            "error_buckets": {
+              "zero": 512,
+              "one": 32,
+              "two": 8,
+              "three_or_more": 4
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 244,
+            "ber": 0.0046875,
+            "error_buckets": {
+              "zero": 244,
+              "one": 7,
+              "two": 4,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 268,
+            "ber": 0.009555555555555555,
+            "error_buckets": {
+              "zero": 268,
+              "one": 25,
+              "two": 4,
+              "three_or_more": 3
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 512,
+            "ber": 0.007434052757793765,
+            "error_buckets": {
+              "zero": 512,
+              "one": 31,
+              "two": 9,
+              "three_or_more": 4
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 244,
+            "ber": 0.0046875,
+            "error_buckets": {
+              "zero": 244,
+              "one": 7,
+              "two": 4,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 268,
+            "ber": 0.009777777777777778,
+            "error_buckets": {
+              "zero": 268,
+              "one": 24,
+              "two": 5,
+              "three_or_more": 3
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 429,
+            "ber": 0.021103117505995205,
+            "error_buckets": {
+              "zero": 429,
+              "one": 97,
+              "two": 21,
+              "three_or_more": 9
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 213,
+            "ber": 0.013541666666666667,
+            "error_buckets": {
+              "zero": 213,
+              "one": 37,
+              "two": 4,
+              "three_or_more": 2
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 216,
+            "ber": 0.027555555555555555,
+            "error_buckets": {
+              "zero": 216,
+              "one": 60,
+              "two": 17,
+              "three_or_more": 7
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4317868857932605,
+          "mean_budget_saturated": 0.42163827023703415,
+          "mean_psnr": 32.25500229209695
+        }
+      }
+    }
+  },
+  {
+    "step": 2750,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 104,
+            "ber": 0.094921875,
+            "error_buckets": {
+              "zero": 104,
+              "one": 205,
+              "two": 120,
+              "three_or_more": 83
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 57,
+            "ber": 0.08489583333333334,
+            "error_buckets": {
+              "zero": 57,
+              "one": 119,
+              "two": 48,
+              "three_or_more": 32
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 47,
+            "ber": 0.10494791666666667,
+            "error_buckets": {
+              "zero": 47,
+              "one": 86,
+              "two": 72,
+              "three_or_more": 51
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 511
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 480,
+            "ber": 0.004166666666666667,
+            "error_buckets": {
+              "zero": 480,
+              "one": 32,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 246,
+            "ber": 0.0026041666666666665,
+            "error_buckets": {
+              "zero": 246,
+              "one": 10,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 234,
+            "ber": 0.005729166666666666,
+            "error_buckets": {
+              "zero": 234,
+              "one": 22,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.425939672277309,
+          "mean_budget_saturated": 0.4187512051430531,
+          "mean_psnr": 32.28065388343699
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 7,
+            "ber": 0.29400479616306957,
+            "error_buckets": {
+              "zero": 7,
+              "one": 24,
+              "two": 59,
+              "three_or_more": 466
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 5,
+            "ber": 0.2677083333333333,
+            "error_buckets": {
+              "zero": 5,
+              "one": 20,
+              "two": 31,
+              "three_or_more": 200
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 2,
+            "ber": 0.3164444444444444,
+            "error_buckets": {
+              "zero": 2,
+              "one": 4,
+              "two": 28,
+              "three_or_more": 266
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 1,
+              "two": 1,
+              "three_or_more": 554
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 1,
+              "two": 1,
+              "three_or_more": 298
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 516,
+            "ber": 0.0077937649880095924,
+            "error_buckets": {
+              "zero": 516,
+              "one": 25,
+              "two": 9,
+              "three_or_more": 6
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 248,
+            "ber": 0.0036458333333333334,
+            "error_buckets": {
+              "zero": 248,
+              "one": 3,
+              "two": 4,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 268,
+            "ber": 0.011333333333333334,
+            "error_buckets": {
+              "zero": 268,
+              "one": 22,
+              "two": 5,
+              "three_or_more": 5
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 516,
+            "ber": 0.0077937649880095924,
+            "error_buckets": {
+              "zero": 516,
+              "one": 25,
+              "two": 9,
+              "three_or_more": 6
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 248,
+            "ber": 0.0036458333333333334,
+            "error_buckets": {
+              "zero": 248,
+              "one": 3,
+              "two": 4,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 268,
+            "ber": 0.011333333333333334,
+            "error_buckets": {
+              "zero": 268,
+              "one": 22,
+              "two": 5,
+              "three_or_more": 5
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 448,
+            "ber": 0.019064748201438848,
+            "error_buckets": {
+              "zero": 448,
+              "one": 75,
+              "two": 23,
+              "three_or_more": 10
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 226,
+            "ber": 0.0109375,
+            "error_buckets": {
+              "zero": 226,
+              "one": 21,
+              "two": 6,
+              "three_or_more": 3
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 222,
+            "ber": 0.026,
+            "error_buckets": {
+              "zero": 222,
+              "one": 54,
+              "two": 17,
+              "three_or_more": 7
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.42690395558480737,
+          "mean_budget_saturated": 0.41686245772263986,
+          "mean_psnr": 32.282138808044024
+        }
+      }
+    }
+  },
+  {
+    "step": 3000,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 133,
+            "ber": 0.088671875,
+            "error_buckets": {
+              "zero": 133,
+              "one": 191,
+              "two": 114,
+              "three_or_more": 74
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 73,
+            "ber": 0.07447916666666667,
+            "error_buckets": {
+              "zero": 73,
+              "one": 106,
+              "two": 58,
+              "three_or_more": 19
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 60,
+            "ber": 0.10286458333333333,
+            "error_buckets": {
+              "zero": 60,
+              "one": 85,
+              "two": 56,
+              "three_or_more": 55
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 1,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 1,
+              "one": 0,
+              "two": 3,
+              "three_or_more": 508
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 1,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 1,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 253
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 511,
+            "ber": 0.00013020833333333333,
+            "error_buckets": {
+              "zero": 511,
+              "one": 1,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 255,
+            "ber": 0.00026041666666666666,
+            "error_buckets": {
+              "zero": 255,
+              "one": 1,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 511,
+            "ber": 0.00013020833333333333,
+            "error_buckets": {
+              "zero": 511,
+              "one": 1,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 255,
+            "ber": 0.00026041666666666666,
+            "error_buckets": {
+              "zero": 255,
+              "one": 1,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 481,
+            "ber": 0.004427083333333333,
+            "error_buckets": {
+              "zero": 481,
+              "one": 28,
+              "two": 3,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 246,
+            "ber": 0.002864583333333333,
+            "error_buckets": {
+              "zero": 246,
+              "one": 9,
+              "two": 1,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 235,
+            "ber": 0.005989583333333334,
+            "error_buckets": {
+              "zero": 235,
+              "one": 19,
+              "two": 2,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4265274404315278,
+          "mean_budget_saturated": 0.4194387152674608,
+          "mean_psnr": 32.281557708343605
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 7,
+            "ber": 0.2931654676258993,
+            "error_buckets": {
+              "zero": 7,
+              "one": 24,
+              "two": 70,
+              "three_or_more": 455
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 5,
+            "ber": 0.2674479166666667,
+            "error_buckets": {
+              "zero": 5,
+              "one": 15,
+              "two": 46,
+              "three_or_more": 190
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 2,
+            "ber": 0.3151111111111111,
+            "error_buckets": {
+              "zero": 2,
+              "one": 9,
+              "two": 24,
+              "three_or_more": 265
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 554
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 298
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 506,
+            "ber": 0.008992805755395683,
+            "error_buckets": {
+              "zero": 506,
+              "one": 35,
+              "two": 8,
+              "three_or_more": 7
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 246,
+            "ber": 0.0046875,
+            "error_buckets": {
+              "zero": 246,
+              "one": 5,
+              "two": 3,
+              "three_or_more": 2
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 260,
+            "ber": 0.012666666666666666,
+            "error_buckets": {
+              "zero": 260,
+              "one": 30,
+              "two": 5,
+              "three_or_more": 5
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 506,
+            "ber": 0.008992805755395683,
+            "error_buckets": {
+              "zero": 506,
+              "one": 35,
+              "two": 7,
+              "three_or_more": 8
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 246,
+            "ber": 0.004427083333333333,
+            "error_buckets": {
+              "zero": 246,
+              "one": 5,
+              "two": 3,
+              "three_or_more": 2
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 260,
+            "ber": 0.012888888888888889,
+            "error_buckets": {
+              "zero": 260,
+              "one": 30,
+              "two": 4,
+              "three_or_more": 6
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 427,
+            "ber": 0.022661870503597123,
+            "error_buckets": {
+              "zero": 427,
+              "one": 93,
+              "two": 23,
+              "three_or_more": 13
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 220,
+            "ber": 0.012239583333333333,
+            "error_buckets": {
+              "zero": 220,
+              "one": 29,
+              "two": 4,
+              "three_or_more": 3
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 207,
+            "ber": 0.03155555555555556,
+            "error_buckets": {
+              "zero": 207,
+              "one": 64,
+              "two": 19,
+              "three_or_more": 10
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.43099439503263226,
+          "mean_budget_saturated": 0.42100790646865216,
+          "mean_psnr": 32.26061510438976
+        }
+      }
+    }
+  },
+  {
+    "step": 3250,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 164,
+            "ber": 0.07486979166666667,
+            "error_buckets": {
+              "zero": 164,
+              "one": 198,
+              "two": 94,
+              "three_or_more": 56
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 101,
+            "ber": 0.0625,
+            "error_buckets": {
+              "zero": 101,
+              "one": 97,
+              "two": 40,
+              "three_or_more": 18
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 63,
+            "ber": 0.08723958333333333,
+            "error_buckets": {
+              "zero": 63,
+              "one": 101,
+              "two": 54,
+              "three_or_more": 38
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 3,
+              "three_or_more": 509
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 254
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 480,
+            "ber": 0.004166666666666667,
+            "error_buckets": {
+              "zero": 480,
+              "one": 32,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 242,
+            "ber": 0.0036458333333333334,
+            "error_buckets": {
+              "zero": 242,
+              "one": 14,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 238,
+            "ber": 0.0046875,
+            "error_buckets": {
+              "zero": 238,
+              "one": 18,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4222839709254913,
+          "mean_budget_saturated": 0.41526777675608173,
+          "mean_psnr": 32.307062012911494
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 7,
+            "ber": 0.29508393285371703,
+            "error_buckets": {
+              "zero": 7,
+              "one": 23,
+              "two": 65,
+              "three_or_more": 461
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 6,
+            "ber": 0.27239583333333334,
+            "error_buckets": {
+              "zero": 6,
+              "one": 18,
+              "two": 32,
+              "three_or_more": 200
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 1,
+            "ber": 0.31444444444444447,
+            "error_buckets": {
+              "zero": 1,
+              "one": 5,
+              "two": 33,
+              "three_or_more": 261
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 554
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 298
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 498,
+            "ber": 0.00935251798561151,
+            "error_buckets": {
+              "zero": 498,
+              "one": 43,
+              "two": 11,
+              "three_or_more": 4
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 242,
+            "ber": 0.005729166666666666,
+            "error_buckets": {
+              "zero": 242,
+              "one": 9,
+              "two": 3,
+              "three_or_more": 2
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 256,
+            "ber": 0.012444444444444444,
+            "error_buckets": {
+              "zero": 256,
+              "one": 34,
+              "two": 8,
+              "three_or_more": 2
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 498,
+            "ber": 0.00935251798561151,
+            "error_buckets": {
+              "zero": 498,
+              "one": 43,
+              "two": 11,
+              "three_or_more": 4
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 242,
+            "ber": 0.005729166666666666,
+            "error_buckets": {
+              "zero": 242,
+              "one": 9,
+              "two": 3,
+              "three_or_more": 2
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 256,
+            "ber": 0.012444444444444444,
+            "error_buckets": {
+              "zero": 256,
+              "one": 34,
+              "two": 8,
+              "three_or_more": 2
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 437,
+            "ber": 0.02050359712230216,
+            "error_buckets": {
+              "zero": 437,
+              "one": 85,
+              "two": 23,
+              "three_or_more": 11
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 219,
+            "ber": 0.013020833333333334,
+            "error_buckets": {
+              "zero": 219,
+              "one": 28,
+              "two": 6,
+              "three_or_more": 3
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 218,
+            "ber": 0.02688888888888889,
+            "error_buckets": {
+              "zero": 218,
+              "one": 57,
+              "two": 17,
+              "three_or_more": 8
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4268842608594208,
+          "mean_budget_saturated": 0.41688016249979143,
+          "mean_psnr": 32.28537277707637
+        }
+      }
+    }
+  },
+  {
+    "step": 3500,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 160,
+            "ber": 0.07317708333333334,
+            "error_buckets": {
+              "zero": 160,
+              "one": 205,
+              "two": 105,
+              "three_or_more": 42
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 95,
+            "ber": 0.06380208333333333,
+            "error_buckets": {
+              "zero": 95,
+              "one": 106,
+              "two": 38,
+              "three_or_more": 17
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 65,
+            "ber": 0.08255208333333333,
+            "error_buckets": {
+              "zero": 65,
+              "one": 99,
+              "two": 67,
+              "three_or_more": 25
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 4,
+              "three_or_more": 508
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 254
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 254
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 490,
+            "ber": 0.002864583333333333,
+            "error_buckets": {
+              "zero": 490,
+              "one": 22,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 246,
+            "ber": 0.0026041666666666665,
+            "error_buckets": {
+              "zero": 246,
+              "one": 10,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 244,
+            "ber": 0.003125,
+            "error_buckets": {
+              "zero": 244,
+              "one": 12,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4172897442476824,
+          "mean_budget_saturated": 0.4104916225769557,
+          "mean_psnr": 32.336017211766624
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 5,
+            "ber": 0.2953237410071942,
+            "error_buckets": {
+              "zero": 5,
+              "one": 25,
+              "two": 62,
+              "three_or_more": 464
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 4,
+            "ber": 0.2682291666666667,
+            "error_buckets": {
+              "zero": 4,
+              "one": 20,
+              "two": 36,
+              "three_or_more": 196
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 1,
+            "ber": 0.3184444444444444,
+            "error_buckets": {
+              "zero": 1,
+              "one": 5,
+              "two": 26,
+              "three_or_more": 268
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 554
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 298
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 501,
+            "ber": 0.009592326139088728,
+            "error_buckets": {
+              "zero": 501,
+              "one": 40,
+              "two": 9,
+              "three_or_more": 6
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 243,
+            "ber": 0.004427083333333333,
+            "error_buckets": {
+              "zero": 243,
+              "one": 9,
+              "two": 4,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 258,
+            "ber": 0.014,
+            "error_buckets": {
+              "zero": 258,
+              "one": 31,
+              "two": 5,
+              "three_or_more": 6
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 501,
+            "ber": 0.009592326139088728,
+            "error_buckets": {
+              "zero": 501,
+              "one": 40,
+              "two": 9,
+              "three_or_more": 6
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 243,
+            "ber": 0.004427083333333333,
+            "error_buckets": {
+              "zero": 243,
+              "one": 9,
+              "two": 4,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 258,
+            "ber": 0.014,
+            "error_buckets": {
+              "zero": 258,
+              "one": 31,
+              "two": 5,
+              "three_or_more": 6
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 436,
+            "ber": 0.02050359712230216,
+            "error_buckets": {
+              "zero": 436,
+              "one": 88,
+              "two": 21,
+              "three_or_more": 11
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 221,
+            "ber": 0.01171875,
+            "error_buckets": {
+              "zero": 221,
+              "one": 28,
+              "two": 4,
+              "three_or_more": 3
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 215,
+            "ber": 0.028,
+            "error_buckets": {
+              "zero": 215,
+              "one": 60,
+              "two": 17,
+              "three_or_more": 8
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.41901913783747513,
+          "mean_budget_saturated": 0.4091767231337458,
+          "mean_psnr": 32.332525522258
+        }
+      }
+    }
+  },
+  {
+    "step": 3750,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 207,
+            "ber": 0.06236979166666667,
+            "error_buckets": {
+              "zero": 207,
+              "one": 187,
+              "two": 76,
+              "three_or_more": 42
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 120,
+            "ber": 0.04973958333333333,
+            "error_buckets": {
+              "zero": 120,
+              "one": 99,
+              "two": 22,
+              "three_or_more": 15
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 87,
+            "ber": 0.075,
+            "error_buckets": {
+              "zero": 87,
+              "one": 88,
+              "two": 54,
+              "three_or_more": 27
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 510
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 512,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 512,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 484,
+            "ber": 0.0036458333333333334,
+            "error_buckets": {
+              "zero": 484,
+              "one": 28,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 249,
+            "ber": 0.0018229166666666667,
+            "error_buckets": {
+              "zero": 249,
+              "one": 7,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 235,
+            "ber": 0.00546875,
+            "error_buckets": {
+              "zero": 235,
+              "one": 21,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4034474021755159,
+          "mean_budget_saturated": 0.3967851865454577,
+          "mean_psnr": 32.42036361715643
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 6,
+            "ber": 0.2958033573141487,
+            "error_buckets": {
+              "zero": 6,
+              "one": 34,
+              "two": 52,
+              "three_or_more": 464
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 4,
+            "ber": 0.26640625,
+            "error_buckets": {
+              "zero": 4,
+              "one": 31,
+              "two": 29,
+              "three_or_more": 192
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 2,
+            "ber": 0.3208888888888889,
+            "error_buckets": {
+              "zero": 2,
+              "one": 3,
+              "two": 23,
+              "three_or_more": 272
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 554
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 299
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 501,
+            "ber": 0.00935251798561151,
+            "error_buckets": {
+              "zero": 501,
+              "one": 39,
+              "two": 10,
+              "three_or_more": 6
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 241,
+            "ber": 0.005989583333333334,
+            "error_buckets": {
+              "zero": 241,
+              "one": 9,
+              "two": 4,
+              "three_or_more": 2
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 260,
+            "ber": 0.012222222222222223,
+            "error_buckets": {
+              "zero": 260,
+              "one": 30,
+              "two": 6,
+              "three_or_more": 4
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 500,
+            "ber": 0.00947242206235012,
+            "error_buckets": {
+              "zero": 500,
+              "one": 40,
+              "two": 10,
+              "three_or_more": 6
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 241,
+            "ber": 0.005989583333333334,
+            "error_buckets": {
+              "zero": 241,
+              "one": 9,
+              "two": 4,
+              "three_or_more": 2
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 259,
+            "ber": 0.012444444444444444,
+            "error_buckets": {
+              "zero": 259,
+              "one": 31,
+              "two": 6,
+              "three_or_more": 4
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 444,
+            "ber": 0.02050359712230216,
+            "error_buckets": {
+              "zero": 444,
+              "one": 76,
+              "two": 23,
+              "three_or_more": 13
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 227,
+            "ber": 0.011197916666666667,
+            "error_buckets": {
+              "zero": 227,
+              "one": 22,
+              "two": 3,
+              "three_or_more": 4
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 217,
+            "ber": 0.028444444444444446,
+            "error_buckets": {
+              "zero": 217,
+              "one": 54,
+              "two": 20,
+              "three_or_more": 9
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.4053165379295246,
+          "mean_budget_saturated": 0.39564196497416326,
+          "mean_psnr": 32.41179800766085
+        }
+      }
+    }
+  },
+  {
+    "step": 4000,
+    "panels": {
+      "same": {
+        "swap": {
+          "all": {
+            "n": 512,
+            "exact": 229,
+            "ber": 0.054036458333333336,
+            "error_buckets": {
+              "zero": 229,
+              "one": 189,
+              "two": 63,
+              "three_or_more": 31
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 131,
+            "ber": 0.046614583333333334,
+            "error_buckets": {
+              "zero": 131,
+              "one": 87,
+              "two": 25,
+              "three_or_more": 13
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 98,
+            "ber": 0.06145833333333333,
+            "error_buckets": {
+              "zero": 98,
+              "one": 102,
+              "two": 38,
+              "three_or_more": 18
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 512,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 511
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 1,
+              "three_or_more": 255
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 512,
+            "exact": 511,
+            "ber": 0.00013020833333333333,
+            "error_buckets": {
+              "zero": 511,
+              "one": 1,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 255,
+            "ber": 0.00026041666666666666,
+            "error_buckets": {
+              "zero": 255,
+              "one": 1,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 512,
+            "exact": 511,
+            "ber": 0.00013020833333333333,
+            "error_buckets": {
+              "zero": 511,
+              "one": 1,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 256,
+            "ber": 0.0,
+            "error_buckets": {
+              "zero": 256,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 255,
+            "ber": 0.00026041666666666666,
+            "error_buckets": {
+              "zero": 255,
+              "one": 1,
+              "two": 0,
+              "three_or_more": 0
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 512,
+            "exact": 478,
+            "ber": 0.004557291666666667,
+            "error_buckets": {
+              "zero": 478,
+              "one": 33,
+              "two": 1,
+              "three_or_more": 0
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 243,
+            "ber": 0.0033854166666666668,
+            "error_buckets": {
+              "zero": 243,
+              "one": 13,
+              "two": 0,
+              "three_or_more": 0
+            }
+          },
+          "trump": {
+            "n": 256,
+            "exact": 235,
+            "ber": 0.005729166666666666,
+            "error_buckets": {
+              "zero": 235,
+              "one": 20,
+              "two": 1,
+              "three_or_more": 0
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.39687976526329294,
+          "mean_budget_saturated": 0.390120375494007,
+          "mean_psnr": 32.46211567201435
+        }
+      },
+      "new": {
+        "swap": {
+          "all": {
+            "n": 556,
+            "exact": 6,
+            "ber": 0.2976019184652278,
+            "error_buckets": {
+              "zero": 6,
+              "one": 28,
+              "two": 58,
+              "three_or_more": 464
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 5,
+            "ber": 0.265625,
+            "error_buckets": {
+              "zero": 5,
+              "one": 23,
+              "two": 35,
+              "three_or_more": 193
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 1,
+            "ber": 0.3248888888888889,
+            "error_buckets": {
+              "zero": 1,
+              "one": 5,
+              "two": 23,
+              "three_or_more": 271
+            }
+          }
+        },
+        "clean_swap": {
+          "all": {
+            "n": 556,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 554
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 0,
+              "three_or_more": 256
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 0,
+            "ber": 0.5,
+            "error_buckets": {
+              "zero": 0,
+              "one": 0,
+              "two": 2,
+              "three_or_more": 298
+            }
+          }
+        },
+        "direct": {
+          "all": {
+            "n": 556,
+            "exact": 482,
+            "ber": 0.01211031175059952,
+            "error_buckets": {
+              "zero": 482,
+              "one": 57,
+              "two": 11,
+              "three_or_more": 6
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 234,
+            "ber": 0.007291666666666667,
+            "error_buckets": {
+              "zero": 234,
+              "one": 18,
+              "two": 3,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 248,
+            "ber": 0.01622222222222222,
+            "error_buckets": {
+              "zero": 248,
+              "one": 39,
+              "two": 8,
+              "three_or_more": 5
+            }
+          }
+        },
+        "png": {
+          "all": {
+            "n": 556,
+            "exact": 482,
+            "ber": 0.01211031175059952,
+            "error_buckets": {
+              "zero": 482,
+              "one": 57,
+              "two": 11,
+              "three_or_more": 6
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 234,
+            "ber": 0.007291666666666667,
+            "error_buckets": {
+              "zero": 234,
+              "one": 18,
+              "two": 3,
+              "three_or_more": 1
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 248,
+            "ber": 0.01622222222222222,
+            "error_buckets": {
+              "zero": 248,
+              "one": 39,
+              "two": 8,
+              "three_or_more": 5
+            }
+          }
+        },
+        "jpeg50": {
+          "all": {
+            "n": 556,
+            "exact": 419,
+            "ber": 0.02422062350119904,
+            "error_buckets": {
+              "zero": 419,
+              "one": 98,
+              "two": 25,
+              "three_or_more": 14
+            }
+          },
+          "cage": {
+            "n": 256,
+            "exact": 215,
+            "ber": 0.013802083333333333,
+            "error_buckets": {
+              "zero": 215,
+              "one": 34,
+              "two": 4,
+              "three_or_more": 3
+            }
+          },
+          "trump": {
+            "n": 300,
+            "exact": 204,
+            "ber": 0.03311111111111111,
+            "error_buckets": {
+              "zero": 204,
+              "one": 64,
+              "two": 21,
+              "three_or_more": 11
+            }
+          }
+        },
+        "quality": {
+          "max_linf": 0.03137257695198059,
+          "mean_candidate_clipped": 0.39976352721238306,
+          "mean_budget_saturated": 0.3899233130563935,
+          "mean_psnr": 32.45265123181911
+        }
+      }
+    }
+  }
+]

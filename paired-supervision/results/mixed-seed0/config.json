@@ -1,0 +1,40 @@
+{
+  "arm": "j1",
+  "seed": 0,
+  "steps": 1000,
+  "device": "cuda:0",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "script_sha256": "ef852195cd3a8fcb79c23905ef33784d1ba41457dedab7b6c1f34ebd5715b788",
+  "checkpoint_sha256": "848730563f4f6f066dabb61c7b0da6adc03a0fc40aa0605a90972f7bfe03331c",
+  "plan_sha256": "397ef17f9539f456f904da17c1a7a0c67b691ce1eb1fb2b67478454d0d42260d",
+  "manifest_sha256": "a924c055082c7dd6e6b514b1b716e0a1032177955afc6d61ebb03c4d370f6bec",
+  "design_sha256": "1b634c79b278cfc4c749242cf565d69721c701166941e78631f8d3cf50f84dd9",
+  "oldpan_sha256": "891e71fe6936c153efde6b3bb5ff6f847a0c363c3767f28f2d861f616f67128f",
+  "start_hashes": {
+    "encoder": "60a19cb80240282599ae135bc4a556f418bf254716020fbdf89d8c412a1af60f",
+    "decoder": "441fe81dd8261014a70a4e96c91e25e56db7cc2a72788308c9773340aaae72d1",
+    "oldpan": "71973d4e0f69f24ab43df714e51953ea952576daf91e6f2d24e0e88b0e09cb54"
+  },
+  "batch_size": 16,
+  "micro_batch": 8,
+  "lr": 5e-06,
+  "processed_weight": 0.25,
+  "message_recipe": "mixed",
+  "processed_paths": {
+    "common": "distortion",
+    "designated": "swap"
+  },
+  "message_weights_per_update": {
+    "direct": 0.75,
+    "distortion": 0.125,
+    "swap": 0.125
+  },
+  "encoder_bn_stats_frozen": true,
+  "decoder_bn_stats_frozen": true,
+  "epsilon": 0.03137254901960784,
+  "training_carriers": 16,
+  "same_pairs": 512,
+  "new_pairs": 556,
+  "test_images_read": 0,
+  "torch_version": "2.8.0+cu128"
+}

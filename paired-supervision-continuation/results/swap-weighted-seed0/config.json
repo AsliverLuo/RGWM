@@ -1,0 +1,44 @@
+{
+  "arm": "j1",
+  "seed": 0,
+  "steps": 2000,
+  "device": "cuda:1",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "script_sha256": "c2e846168c23bcba2ddae1ca054d7b41b345cbaace94505e451947ced3a7e6c5",
+  "checkpoint_sha256": "848730563f4f6f066dabb61c7b0da6adc03a0fc40aa0605a90972f7bfe03331c",
+  "plan_sha256": "179c49b5e9f690314287efb58a7bf4a4216de08ae00259f184d08af1deacd23c",
+  "manifest_sha256": "a924c055082c7dd6e6b514b1b716e0a1032177955afc6d61ebb03c4d370f6bec",
+  "design_sha256": "1b634c79b278cfc4c749242cf565d69721c701166941e78631f8d3cf50f84dd9",
+  "oldpan_sha256": "891e71fe6936c153efde6b3bb5ff6f847a0c363c3767f28f2d861f616f67128f",
+  "start_hashes": {
+    "encoder": "d49b4f07d66490f3b29a23336275de57e182218095e66d5484fa848284c339f9",
+    "decoder": "ec8a662eedaf644f3ac37f998a26c9594c54ad7303b34374bed46467965dbeba",
+    "oldpan": "71973d4e0f69f24ab43df714e51953ea952576daf91e6f2d24e0e88b0e09cb54"
+  },
+  "batch_size": 16,
+  "micro_batch": 8,
+  "lr": 5e-06,
+  "processed_weight": 0.25,
+  "message_recipe": "swap-weighted",
+  "processed_paths": {
+    "common": "swap",
+    "designated": "swap"
+  },
+  "message_weights_per_update": {
+    "direct": 0.75,
+    "swap": 0.25
+  },
+  "encoder_bn_stats_frozen": true,
+  "decoder_bn_stats_frozen": true,
+  "epsilon": 0.03137254901960784,
+  "training_carriers": 16,
+  "same_pairs": 512,
+  "new_pairs": 556,
+  "test_images_read": 0,
+  "torch_version": "2.8.0+cu128",
+  "resume_from_step": 1000,
+  "parent_checkpoint_sha256": "0ec64ef91eeeecfd4d6e47edac701c3ea08687790d5c87e5f3ba90dd9555aa5d",
+  "parent_plan_sha256": "397ef17f9539f456f904da17c1a7a0c67b691ce1eb1fb2b67478454d0d42260d",
+  "continuation_new_messages": 4940,
+  "continuation_recycled_messages": 11060
+}

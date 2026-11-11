@@ -1,0 +1,371 @@
+{
+  "step": 6000,
+  "panels": {
+    "same": {
+      "swap": {
+        "all": {
+          "n": 512,
+          "exact": 328,
+          "ber": 0.030208333333333334,
+          "error_buckets": {
+            "zero": 328,
+            "one": 145,
+            "two": 30,
+            "three_or_more": 9
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 187,
+          "ber": 0.020833333333333332,
+          "error_buckets": {
+            "zero": 187,
+            "one": 59,
+            "two": 9,
+            "three_or_more": 1
+          }
+        },
+        "trump": {
+          "n": 256,
+          "exact": 141,
+          "ber": 0.03958333333333333,
+          "error_buckets": {
+            "zero": 141,
+            "one": 86,
+            "two": 21,
+            "three_or_more": 8
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 512,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 512
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 256
+          }
+        },
+        "trump": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 256
+          }
+        }
+      },
+      "direct": {
+        "all": {
+          "n": 512,
+          "exact": 512,
+          "ber": 0.0,
+          "error_buckets": {
+            "zero": 512,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 256,
+          "ber": 0.0,
+          "error_buckets": {
+            "zero": 256,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 256,
+          "exact": 256,
+          "ber": 0.0,
+          "error_buckets": {
+            "zero": 256,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 0
+          }
+        }
+      },
+      "png": {
+        "all": {
+          "n": 512,
+          "exact": 512,
+          "ber": 0.0,
+          "error_buckets": {
+            "zero": 512,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 256,
+          "ber": 0.0,
+          "error_buckets": {
+            "zero": 256,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 256,
+          "exact": 256,
+          "ber": 0.0,
+          "error_buckets": {
+            "zero": 256,
+            "one": 0,
+            "two": 0,
+            "three_or_more": 0
+          }
+        }
+      },
+      "jpeg50": {
+        "all": {
+          "n": 512,
+          "exact": 475,
+          "ber": 0.005078125,
+          "error_buckets": {
+            "zero": 475,
+            "one": 35,
+            "two": 2,
+            "three_or_more": 0
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 239,
+          "ber": 0.004427083333333333,
+          "error_buckets": {
+            "zero": 239,
+            "one": 17,
+            "two": 0,
+            "three_or_more": 0
+          }
+        },
+        "trump": {
+          "n": 256,
+          "exact": 236,
+          "ber": 0.005729166666666666,
+          "error_buckets": {
+            "zero": 236,
+            "one": 18,
+            "two": 2,
+            "three_or_more": 0
+          }
+        }
+      },
+      "quality": {
+        "max_linf": 0.03137257695198059,
+        "mean_candidate_clipped": 0.4082170713809319,
+        "mean_budget_saturated": 0.40145669045159593,
+        "mean_psnr": 32.45592195529537
+      }
+    },
+    "new": {
+      "swap": {
+        "all": {
+          "n": 556,
+          "exact": 8,
+          "ber": 0.24640287769784172,
+          "error_buckets": {
+            "zero": 8,
+            "one": 57,
+            "two": 102,
+            "three_or_more": 389
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 6,
+          "ber": 0.21145833333333333,
+          "error_buckets": {
+            "zero": 6,
+            "one": 41,
+            "two": 59,
+            "three_or_more": 150
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 2,
+          "ber": 0.2762222222222222,
+          "error_buckets": {
+            "zero": 2,
+            "one": 16,
+            "two": 43,
+            "three_or_more": 239
+          }
+        }
+      },
+      "clean_swap": {
+        "all": {
+          "n": 556,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 2,
+            "three_or_more": 554
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 1,
+            "three_or_more": 255
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 0,
+          "ber": 0.5,
+          "error_buckets": {
+            "zero": 0,
+            "one": 0,
+            "two": 1,
+            "three_or_more": 299
+          }
+        }
+      },
+      "direct": {
+        "all": {
+          "n": 556,
+          "exact": 489,
+          "ber": 0.011151079136690648,
+          "error_buckets": {
+            "zero": 489,
+            "one": 51,
+            "two": 8,
+            "three_or_more": 8
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 244,
+          "ber": 0.005208333333333333,
+          "error_buckets": {
+            "zero": 244,
+            "one": 8,
+            "two": 1,
+            "three_or_more": 3
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 245,
+          "ber": 0.01622222222222222,
+          "error_buckets": {
+            "zero": 245,
+            "one": 43,
+            "two": 7,
+            "three_or_more": 5
+          }
+        }
+      },
+      "png": {
+        "all": {
+          "n": 556,
+          "exact": 489,
+          "ber": 0.011151079136690648,
+          "error_buckets": {
+            "zero": 489,
+            "one": 51,
+            "two": 8,
+            "three_or_more": 8
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 244,
+          "ber": 0.005208333333333333,
+          "error_buckets": {
+            "zero": 244,
+            "one": 8,
+            "two": 1,
+            "three_or_more": 3
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 245,
+          "ber": 0.01622222222222222,
+          "error_buckets": {
+            "zero": 245,
+            "one": 43,
+            "two": 7,
+            "three_or_more": 5
+          }
+        }
+      },
+      "jpeg50": {
+        "all": {
+          "n": 556,
+          "exact": 440,
+          "ber": 0.01990407673860911,
+          "error_buckets": {
+            "zero": 440,
+            "one": 85,
+            "two": 17,
+            "three_or_more": 14
+          }
+        },
+        "cage": {
+          "n": 256,
+          "exact": 223,
+          "ber": 0.011197916666666667,
+          "error_buckets": {
+            "zero": 223,
+            "one": 27,
+            "two": 3,
+            "three_or_more": 3
+          }
+        },
+        "trump": {
+          "n": 300,
+          "exact": 217,
+          "ber": 0.027333333333333334,
+          "error_buckets": {
+            "zero": 217,
+            "one": 58,
+            "two": 14,
+            "three_or_more": 11
+          }
+        }
+      },
+      "quality": {
+        "max_linf": 0.03137257695198059,
+        "mean_candidate_clipped": 0.4133135311359124,
+        "mean_budget_saturated": 0.4035022389009702,
+        "mean_psnr": 32.42888400098767
+      }
+    }
+  }
+}

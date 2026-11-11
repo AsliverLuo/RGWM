@@ -1,0 +1,25 @@
+{
+  "plan_sha256": "4556d4cc75af7f0f4d4e8103cb261cd189ee7cfcaa9f1c0558e2f098c40a2e32",
+  "parent_sha256": "396323bab324055ae829a8efc55e775f1f2f3a6e657e874360bd7914559d3119",
+  "start": 6000,
+  "carriers": 64,
+  "manifest_sha256": "a924c055082c7dd6e6b514b1b716e0a1032177955afc6d61ebb03c4d370f6bec",
+  "design_sha256": "1b634c79b278cfc4c749242cf565d69721c701166941e78631f8d3cf50f84dd9",
+  "oldpan_sha256": "891e71fe6936c153efde6b3bb5ff6f847a0c363c3767f28f2d861f616f67128f",
+  "message_weights": {
+    "direct": 0.75,
+    "swap": 0.25
+  },
+  "identity_weights": {
+    "cage": 0.5,
+    "trump": 0.5
+  },
+  "nodes": [
+    6000,
+    12000,
+    18000,
+    24000
+  ],
+  "test_images_read": 0,
+  "device": "cuda:1"
+}

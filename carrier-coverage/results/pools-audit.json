@@ -1,0 +1,56 @@
+{
+  "n16": {
+    "cage": {
+      "covers": 8,
+      "groups": 8,
+      "exposure_range": [
+        6000,
+        6000
+      ]
+    },
+    "trump": {
+      "covers": 8,
+      "groups": 8,
+      "exposure_range": [
+        6000,
+        6000
+      ]
+    }
+  },
+  "n64": {
+    "cage": {
+      "covers": 32,
+      "groups": 32,
+      "exposure_range": [
+        1500,
+        1500
+      ]
+    },
+    "trump": {
+      "covers": 32,
+      "groups": 32,
+      "exposure_range": [
+        1500,
+        1500
+      ]
+    }
+  },
+  "n416": {
+    "cage": {
+      "covers": 190,
+      "groups": 173,
+      "exposure_range": [
+        252,
+        253
+      ]
+    },
+    "trump": {
+      "covers": 226,
+      "groups": 223,
+      "exposure_range": [
+        212,
+        213
+      ]
+    }
+  }
+}

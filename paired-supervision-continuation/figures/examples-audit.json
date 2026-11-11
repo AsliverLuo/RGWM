@@ -1,0 +1,52 @@
+{
+  "validation_pairs": 556,
+  "test_images_read": 0,
+  "checkpoint_sha256": {
+    "1000": "d190c55ee8eb5e457534eff18c68a8e247bf14624238238bbe7813552d7ebaad",
+    "2000": "0d33fce9090da59c3cc1a1affb99fa5d85fbcd028b54d3e4ea0d544269e605f0"
+  },
+  "selection": "Upper median bit error by direction and first step-2000 exact recovery that failed at step 1000",
+  "prediction_replays": 16,
+  "examples": [
+    {
+      "kind": "终点误码中位样本",
+      "sample_id": "trump-cage-cage-105034727",
+      "message_index": 1,
+      "direction": "cage → trump",
+      "psnr": 32.25726257655373,
+      "direct_errors": 0,
+      "step1000_errors": 6,
+      "step2000_errors": 4
+    },
+    {
+      "kind": "续训后全对样本",
+      "sample_id": "trump-cage-cage-107022232",
+      "message_index": 10,
+      "direction": "cage → trump",
+      "psnr": 31.95334017495386,
+      "direct_errors": 0,
+      "step1000_errors": 3,
+      "step2000_errors": 0
+    },
+    {
+      "kind": "终点误码中位样本",
+      "sample_id": "trump-cage-trump-499790322",
+      "message_index": 7,
+      "direction": "trump → cage",
+      "psnr": 32.09819541890325,
+      "direct_errors": 0,
+      "step1000_errors": 4,
+      "step2000_errors": 5
+    },
+    {
+      "kind": "续训后全对样本",
+      "sample_id": "trump-cage-trump-631480534",
+      "message_index": 5,
+      "direction": "trump → cage",
+      "psnr": 31.91551548899083,
+      "direct_errors": 0,
+      "step1000_errors": 1,
+      "step2000_errors": 0
+    }
+  ]
+}

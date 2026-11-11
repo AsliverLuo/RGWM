@@ -1,0 +1,53 @@
+{
+  "validation_pairs": 556,
+  "test_images_read": 0,
+  "checkpoint_sha256": {
+    "16": "aaaf388c381e21726240275481fe2f5c73411ae944fa25cab5bdb312b734d78c",
+    "416": "64c2256ee6415c7e833dedf2d3261a451c05761965342d1fc4176bb523c37541"
+  },
+  "selection": "Upper median bit error by direction and first exact recovery for 416 that failed for 16, with best-error fallback",
+  "comparison": "carrier counts at step 6000",
+  "prediction_replays": 16,
+  "examples": [
+    {
+      "kind": "终点误码中位样本",
+      "sample_id": "trump-cage-cage-105021948",
+      "message_index": 13,
+      "direction": "cage → trump",
+      "psnr": 31.599002427700427,
+      "direct_errors": 0,
+      "step16_errors": 5,
+      "step416_errors": 3
+    },
+    {
+      "kind": "扩充后全对样本",
+      "sample_id": "trump-cage-cage-109537829",
+      "message_index": 0,
+      "direction": "cage → trump",
+      "psnr": 31.959452900502164,
+      "direct_errors": 0,
+      "step16_errors": 1,
+      "step416_errors": 0
+    },
+    {
+      "kind": "终点误码中位样本",
+      "sample_id": "trump-cage-trump-654462068",
+      "message_index": 9,
+      "direction": "trump → cage",
+      "psnr": 31.549170349525852,
+      "direct_errors": 0,
+      "step16_errors": 3,
+      "step416_errors": 3
+    },
+    {
+      "kind": "扩充后全对样本",
+      "sample_id": "trump-cage-trump-487401374",
+      "message_index": 10,
+      "direction": "trump → cage",
+      "psnr": 31.31109622845349,
+      "direct_errors": 0,
+      "step16_errors": 2,
+      "step416_errors": 0
+    }
+  ]
+}

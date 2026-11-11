@@ -1,0 +1,36 @@
+{
+  "plan_sha256": "1e5e440fc29319283acad675f348759ac97902ef8dc0b1967455c4a8c8c04b81",
+  "parent_sha256": "530848220199899fe1339893dd6ddc6931d7ca89b87615299eb1c41b388e363d",
+  "start": 6000,
+  "carriers": 416,
+  "manifest_sha256": "a924c055082c7dd6e6b514b1b716e0a1032177955afc6d61ebb03c4d370f6bec",
+  "design_sha256": "1b634c79b278cfc4c749242cf565d69721c701166941e78631f8d3cf50f84dd9",
+  "oldpan_sha256": "891e71fe6936c153efde6b3bb5ff6f847a0c363c3767f28f2d861f616f67128f",
+  "message_weights": {
+    "direct": 0.5,
+    "swap": 0.5
+  },
+  "identity_weights": {
+    "cage": 0.5,
+    "trump": 0.5
+  },
+  "nodes": [
+    6000,
+    13000,
+    26000,
+    39000,
+    78000,
+    117000,
+    156000
+  ],
+  "test_images_read": 0,
+  "device": "cuda:3",
+  "step": 156000,
+  "data_cursor": 2496000,
+  "final_checkpoint_sha256": "91fed48b618a8cbef470153cfc5734a11330e6b0b701af9c70e7c8c323f1b907",
+  "end_hashes": {
+    "encoder": "9f1d2f1c2db5f2bca1d62c432f52e40ee8ef85d37ec318ed46057a297588b363",
+    "decoder": "9eaa2cbc1abb10997612ff277f1816e171747426a51188a85490da1a115b4c4a",
+    "oldpan": "71973d4e0f69f24ab43df714e51953ea952576daf91e6f2d24e0e88b0e09cb54"
+  }
+}
